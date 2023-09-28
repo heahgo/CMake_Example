@@ -1,4 +1,4 @@
-set(TARGET main)
+set(TARGET CMake_Test)
 
 target_compile_options(test PRIVATE -Wall -Werror)
 
