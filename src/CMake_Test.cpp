@@ -1,4 +1,4 @@
-#include "../includes/test.h"
+#include "../include/test.h"
 
 int main() {
     comment();
