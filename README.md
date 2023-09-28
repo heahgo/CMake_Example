@@ -7,7 +7,7 @@
 ## Build
 
 ---
-
+CMake_Example/
 ```
 mkdir build && cd build
 cmake ../
@@ -22,5 +22,5 @@ make
 
 ```
 cd ../bin
-./CMake_test
+./CMake_Test
 ```
