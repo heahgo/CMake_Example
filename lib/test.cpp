@@ -1,7 +1,7 @@
 #include "../include/test.h"
 
 void comment() {
-    printf("Cmake TEST!!\n");
+    printf("CMake_Example!!\n");
     return;
 }
 

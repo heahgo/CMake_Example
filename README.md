@@ -10,7 +10,7 @@
 
 ```
 git clone https://github.com/heahgo/CMake_Example
-cd CMake_Test
+cd CMake_Example
 mkdir build && cd build
 cmake ../
 make
@@ -24,5 +24,5 @@ make
 
 ```
 cd ../bin
-./CMake_Test
+./CMake_Example
 ```
