@@ -21,6 +21,6 @@ make
 ---
 
 ```
-cd bin
+cd ../bin
 ./CMake_test
 ```
