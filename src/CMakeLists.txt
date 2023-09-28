@@ -1,8 +1,8 @@
 set(TARGET CMake_Example)
 
-target_compile_options(${TARGET} PRIVATE -Wall -Werror)
-
 ADD_EXECUTABLE(${TARGET}  ${TARGET}.cpp)
+
+target_compile_options(${TARGET} PRIVATE -Wall -Werror)
 
 target_link_libraries(${TARGET} example)
 
