@@ -1,5 +1,7 @@
-add_library(test STATIC test.cpp)
+set(TARGET example)
 
-target_include_directories(test PUBLIC ${CMAKE_SOURCE_DIR}/include)
+add_library(${TARGET} STATIC ${TARGET}.cpp)
 
-target_compile_options(test PRIVATE -Wall -Werror)
+target_include_directories(${TARGET} PUBLIC ${CMAKE_SOURCE_DIR}/include)
+
+target_compile_options(${TARGET} PRIVATE -Wall -Werror)
