@@ -1,6 +1,6 @@
 set(TARGET CMake_Example)
 
-target_compile_options(test PRIVATE -Wall -Werror)
+target_compile_options(${TARGET} PRIVATE -Wall -Werror)
 
 ADD_EXECUTABLE(${TARGET}  ${TARGET}.cpp)
 
